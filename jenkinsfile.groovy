@@ -14,6 +14,7 @@ node("master"){
 
   stage ('Release') {
       nodejs('node'){
+          bat "echo %GH_TOKEN%"
     bat "npx semantic-release"
       }
   }
