@@ -1,7 +1,8 @@
 node("master"){
     
   environment {
-        GH_TOKEN  = "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"
+        GH_TOKEN  = credentials('git-auth-token')
+        NPM_TOKEN = credentials('npm_token')
     }
   stage ('Build') {
     git url: 'https://github.com/kalesujata97/npm-example.git'
