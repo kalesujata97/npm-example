@@ -20,5 +20,8 @@
   "homepage": "https://github.com/kalesujata97/npm-example#readme",
   "devDependencies": {
     "semantic-release": "^17.4.3"
+  },
+  "dependencies": {
+    "semantic-release-cli": "^5.4.3"
   }
 }
