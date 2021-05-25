@@ -14,7 +14,7 @@ node("master"){
 
   stage ('Release') {
       nodejs('node'){
-          bat "semantic-release-cli --gh-token=%GH_TOKEN% --npm-token=%npm_token%"
+          bat "npm semantic-release-cli --gh-token=%GH_TOKEN% --npm-token=%npm_token% --npm-username=kalesujata97"
     bat "npx semantic-release"
       }
   }
