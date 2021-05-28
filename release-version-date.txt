@@ -1,0 +1,3 @@
+0.3.0
+2021-05-28
+v0/2021_05_28.retail-platform-service.v0_3_0.doc
